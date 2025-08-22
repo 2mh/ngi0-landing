@@ -13,6 +13,7 @@ import {DOSSIER as VULKAN_DOSSIER} from "./vulkan";
 import {DOSSIER as ROS_DOSSIER} from "./ros";
 import {DOSSIER as OPEN_DATA_DOSSIER} from "./open-data";
 import {DOSSIER as IoT_DOSSIER} from "./iot";
+import {DOSSIER as MSG_DOSSIER} from "./msg";
 
 import {ProjectCardType} from "../types";
 import {DossierType} from "../types/DossierType";
@@ -32,7 +33,8 @@ const dossiers = {
     [VULKAN_DOSSIER.pathName]: VULKAN_DOSSIER,
     [ROS_DOSSIER.pathName]: ROS_DOSSIER,
     [OPEN_DATA_DOSSIER.pathName]: OPEN_DATA_DOSSIER,
-    [IoT_DOSSIER.pathName]: IoT_DOSSIER
+    [IoT_DOSSIER.pathName]: IoT_DOSSIER,
+    [MSG_DOSSIER.pathName]: MSG_DOSSIER
 } as {[pathName: string]: DossierType}
 
 const dossiersArray = Object.values(dossiers) as ProjectCardType[];

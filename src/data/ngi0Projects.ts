@@ -970,5 +970,24 @@ export const ngi0Projects = {
         link: "https://nlnet.nl/project/iso14229/",
         fund: funds.zeroCore,
         start: "2025-01",
-    }
+    },
+    Dino: {
+        image: "https://nlnet.nl/project/Dino/dino.logo.svg",
+        header: "Dino",
+        subheader: "User-friendly and secure instant messaging",
+        tags: ["Dino", "Chat", "Desktop", "IM", "Jabber", "XMPP", "Messaging", "Privacy"],
+        link: "https://nlnet.nl/project/Dino/",
+        fund: funds.pet,
+        start: "2020-04",
+        end: "2022-10",
+    },
+    BriarDesktop: {
+        image: "https://nlnet.nl/project/Briar-beyond-Android/briar.logo.svg",
+        header: "Briar Desktop",
+        subheader: "E2EE online and offline messaging and discussion",
+        tags: ["Briar", "Chat", "Desktop", "IM", "Bluetooth", "WiFi", "Tor", "Messaging", "Privacy"],
+        link: "https://nlnet.nl/project/Briar-beyond-Android/",
+        fund: funds.assure,
+        start: "2022-02",
+        end: "2023-09",
 }
