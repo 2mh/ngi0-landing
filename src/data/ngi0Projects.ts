@@ -50,7 +50,7 @@ export const ngi0Projects = {
         link: "https://nlnet.nl/project/Ontogen/",
         funds: funds.assure,
         start: "2022-12",
-        end: "2024-08"
+        stop: "2024-08"
     },
     maDada: {
         image: "/ngi0/img/default.svg",
@@ -60,7 +60,7 @@ export const ngi0Projects = {
         link: "https://nlnet.nl/project/MaDada/",
         funds: funds.discovery,
         start: "2021-08",
-        end: "2022-10"
+        stop: "2022-10"
     },
     linkedDataHub: {
         image: "/ngi0/img/default.svg",
@@ -70,7 +70,7 @@ export const ngi0Projects = {
         link: "https://nlnet.nl/project/LinkedDataHub/",
         funds: funds.discovery,
         start: "2021-10",
-        end: "2022-10"
+        stop: "2022-10"
     },
     wikirateFrameworks: {
         image: "https://nlnet.nl/project/FrameworksFraming/wikirate.logo.svg",
@@ -532,7 +532,7 @@ export const ngi0Projects = {
         link: "https://nlnet.nl/project/LibrePCB/",
         funds: funds.entrust,
         start: "2023-02",
-        end: "2024-04"
+        stop: "2024-04"
     },
     librePCB_2_0: {
         image: "https://nlnet.nl/project/LibrePCB/librepcb.logo.svg",
@@ -541,7 +541,7 @@ export const ngi0Projects = {
         tags: ["LibrePCB", "RustLang", "PCBDesign", "EDAsoftware"],
         link: "https://nlnet.nl/project/LibrePCB2.0/",
         funds: funds.ngi0Commons,
-        end: "2024-06"
+        stop: "2024-06"
     },
 
     KiCad: {
@@ -805,7 +805,7 @@ export const ngi0Projects = {
         tags: ["Security", "Privacy", "Communication"],
         link: "https://nlnet.nl/project/secushare-box/",
         start: "2017-12",
-        end: "2019-05"
+        stop: "2019-05"
     },
     purl2sym: {
         image: "https://nlnet.nl/project/purl2sym/aboutcode.logo.svg",
@@ -815,7 +815,7 @@ export const ngi0Projects = {
         link: "https://nlnet.nl/project/purl2sym/",
         fund: funds.entrust,
         start: "2023-10",
-        end: "2024-05"
+        stop: "2024-05"
     },
     zSipOs: {
         image: "https://nlnet.nl/project/ZSipOs/zsipos.svg",
@@ -825,7 +825,7 @@ export const ngi0Projects = {
         link: "https://nlnet.nl/project/ZSipOs/",
         fund: funds.pet,
         start: "2019-06",
-        end: "2019-06"
+        stop: "2019-06"
     },
     wpeAndroid: {
         image: "https://nlnet.nl/project/WPE-Android/wpe.logo.svg",
@@ -835,7 +835,7 @@ export const ngi0Projects = {
         link: "https://nlnet.nl/project/WPE-Android/",
         fund: funds.zeroCore,
         start: "2023-04",
-        end: "2024-10"
+        stop: "2024-10"
     },
     smoltcp: {
         image: "/ngi0/img/default.svg",
@@ -845,7 +845,7 @@ export const ngi0Projects = {
         link: "https://nlnet.nl/project/Smoltcp/",
         fund: funds.assure,
         start: "2022-10",
-        end: "2024-08"
+        stop: "2024-08"
     },
     rauthy: {
         image: "https://nlnet.nl/project/Rauthy/rauthy.logo.svg",
@@ -873,7 +873,7 @@ export const ngi0Projects = {
         link: "https://nlnet.nl/project/OpenCryptoLinux/",
         fund: funds.assure,
         start: "2022-06",
-        end: "2024-07"
+        stop: "2024-07"
     },
     openCryptoHW: {
         image: "/ngi0/img/default.svg",
@@ -883,7 +883,7 @@ export const ngi0Projects = {
         link: "https://nlnet.nl/project/OpenCryptoHW/",
         fund: funds.assure,
         start: "2021-06",
-        end: "2024-07"
+        stop: "2024-07"
     },
     neuropil: {
         image: "https://nlnet.nl/project/Neuropil/neuropil.logo.svg",
@@ -893,7 +893,7 @@ export const ngi0Projects = {
         link: "https://nlnet.nl/project/Neuropil/",
         fund: funds.discovery,
         start: "2019-06",
-        end: "2019-06"
+        stop: "2019-06"
     },
     neuropilDHT: {
         image: "https://nlnet.nl/project/Neuropil/neuropil.logo.svg",
@@ -903,7 +903,7 @@ export const ngi0Projects = {
         link: "https://nlnet.nl/project/Neuropil-DHT/",
         fund: funds.assure,
         start: "2021-08",
-        end: "2024-08"
+        stop: "2024-08"
     },
     lunaPnR: {
         image: "https://nlnet.nl/project/Luna/luna.logo.svg",
@@ -913,7 +913,7 @@ export const ngi0Projects = {
         link: "https://nlnet.nl/project/Luna/",
         fund: funds.pet,
         start: "2021-02",
-        end: "2022-10"
+        stop: "2022-10"
     },
     lunaPnRPhase2: {
         image: "https://nlnet.nl/project/Luna/luna.logo.svg",
@@ -932,7 +932,7 @@ export const ngi0Projects = {
         link: "https://nlnet.nl/project/LetsConnect-P2P/",
         fund: funds.assure,
         start: "2022-12",
-        end: "2024-08"
+        stop: "2024-08"
     },
     KEMTLS: {
         image: "https://nlnet.nl/project/KEMTLS/ietf.hex.svg",
@@ -942,7 +942,7 @@ export const ngi0Projects = {
         link: "https://nlnet.nl/project/KEMTLS/",
         fund: funds.assure,
         start: "2021-06",
-        end: "2023-11"
+        stop: "2023-11"
     },
     jellyfishOPP: {
         image: "https://nlnet.nl/project/JellyfishOPP/jellyfishopp.logo.svg",
@@ -979,7 +979,7 @@ export const ngi0Projects = {
         link: "https://nlnet.nl/project/Dino/",
         fund: funds.pet,
         start: "2020-04",
-        end: "2022-10",
+	end: "2022-10",
     },
     BriarDesktop: {
         image: "https://nlnet.nl/project/Briar-beyond-Android/briar.logo.svg",
@@ -989,5 +989,26 @@ export const ngi0Projects = {
         link: "https://nlnet.nl/project/Briar-beyond-Android/",
         fund: funds.assure,
         start: "2022-02",
-        end: "2023-09",
+	end: "2023-09",
+    },
+   Bana: {
+        image: "https://nlnet.nl/project/Bana/bana.logo.svg",
+        header: "Bana",
+        subheader: "Personal network oriented ActivityPub powered social networking",
+        tags: ["Social Media", "Social", "ActivityPub", "Social Network"],
+        link: "https://nlnet.nl/project/Bana/",
+        fund: funds.entrust,
+        start: "2023-06"
+    },
+   Spritely: {
+        image: "https://nlnet.nl/project/Spritely/spritely.logo.png",
+        header: "Spritely",
+        subheader: "Usability of decentralised social media",
+        tags: ["Social Media", "Privacy", "Security", "Usability", "UX"],
+        link: "https://nlnet.nl/project/Spritely/",
+        fund: funds.pet,
+        start: "2019-12",
+	end: "2022-10"
+    },
+
 }

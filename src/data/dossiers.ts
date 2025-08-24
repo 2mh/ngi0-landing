@@ -14,6 +14,7 @@ import {DOSSIER as ROS_DOSSIER} from "./ros";
 import {DOSSIER as OPEN_DATA_DOSSIER} from "./open-data";
 import {DOSSIER as IoT_DOSSIER} from "./iot";
 import {DOSSIER as MSG_DOSSIER} from "./msg";
+import {DOSSIER as SM_DOSSIER} from "./sm";
 
 import {ProjectCardType} from "../types";
 import {DossierType} from "../types/DossierType";
@@ -34,7 +35,8 @@ const dossiers = {
     [ROS_DOSSIER.pathName]: ROS_DOSSIER,
     [OPEN_DATA_DOSSIER.pathName]: OPEN_DATA_DOSSIER,
     [IoT_DOSSIER.pathName]: IoT_DOSSIER,
-    [MSG_DOSSIER.pathName]: MSG_DOSSIER
+    [MSG_DOSSIER.pathName]: MSG_DOSSIER,
+    [SM_DOSSIER.pathName]: SM_DOSSIER
 } as {[pathName: string]: DossierType}
 
 const dossiersArray = Object.values(dossiers) as ProjectCardType[];
