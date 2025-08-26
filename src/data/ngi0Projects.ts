@@ -1010,5 +1010,23 @@ export const ngi0Projects = {
         start: "2019-12",
 	end: "2022-10"
     },
-
+  ForgeFlux: {
+        image: "https://nlnet.nl/project/ForgeFlux/ForgeFlux.logo.svg",
+        header: "ForgeFlux",
+        subheader: "Software Forge independent federation with ActivityPub and F3",
+        tags: ["API", "ActivityPub", "Social Media", "Fediverse", "Federation", "Interoperability"],
+        link: "https://nlnet.nl/project/ForgeFlux/",
+        fund: funds.entrust,
+        start: "2023-10",
+  },
+  FediverseTestFramework: {
+        image: "https://nlnet.nl/project/FediverseTestFramework/fediverse.logo.svg",
+        header: "Fediverse Test Framework",
+        subheader: "Test bench for ActivityPub implementations",
+        tags: ["ActivityPub", "Social Media", "Federation", "Fediverse", "Interoperability"],
+        link: "https://nlnet.nl/project/FediverseTestFramework/",
+        fund: funds.zeroCore,
+        start: "2023-06",
+        end: "2024-01",
+  },
 }

@@ -4,7 +4,7 @@ import {ngi0Projects} from "./ngi0Projects";
 import {corporateProjects} from "./corporateProjects";
 
 const SM_CARDS: ProjectCardType[] = [
-    ngi0Projects.Bana, ngi0Projects.Spritely
+    ngi0Projects.Bana, ngi0Projects.FediverseTestFramework, ngi0Projects.ForgeFlux, ngi0Projects.Spritely
 ];
 
 const SM_TAGS: string[] = [];
@@ -27,7 +27,7 @@ point of control and always with the possibility to switch instance(s).
             associatedProjects: [
                 {
                     heading: SIMILAR_NGI0_PROJECTS,
-                    carousel: [ngi0Projects.Bana, ngi0Projects.Spritely]
+                    carousel: [ngi0Projects.Bana, ngi0Projects.FediverseTestFramework, ngi0Projects.ForgeFlux, ngi0Projects.Spritely]
                 }
             ]
         },
@@ -60,6 +60,37 @@ Spritely is a project to advance the federated social network by adding richer c
     ]
 };
 
+const ForgeFlux: ProjectPageType = {
+    pageTitle: "ForgeFlux",
+    menuTitle: "ForgeFlux",
+    projectDescription: [
+        {
+            header: "ForgeFlux",
+            text: `
+ForgeFlux is a project in the forge federation domain that is trying to make forges federate by building external adapters. We use the forge's native APIs and create a translation layer to talk to other nodes on the federating forge network. We aim to make Forgejo and GitHub federate for the first stable release.
+`
+        },
+    ]
+};
+
+const FediverseTestFramework: ProjectPageType = {
+    pageTitle: "Fediverse Test Framework",
+    menuTitle: "Fediverse Test Framework",
+    projectDescription: [
+        {
+            header: "Fediverse Test Framework",
+            text: `
+The Fediverse consists of individual servers, possibly running different software, that talk to each other. One of the challenges in developing for the Fediverse is to stay interoperable with all the different deployed software. As the message format standard, ActivityStreams, is extensible through JSON-LD, judging how a message is parsed, can be a hard task.
+
+By using ideas from automated testing, we provide an application that determines a baseline how messages are processed and rendered. The process being simply: run end to end tests and record their result. From the test results a webpage is generated that provides developers the information how a message is rendered in different applications. We aim to make the framework extensible so new applications can be included.
+
+`
+        },
+    ]
+};
+
+
+
 const comparison: ProjectPageType = {
     pageTitle: "Decentralized Social Media comparison",
     menuTitle: "Decentralized Social Media comparison",
@@ -83,7 +114,7 @@ const comparison: ProjectPageType = {
             associatedProjects: [
                 {
                     heading: ASSOCIATED_NGI0_PROJECTS,
-                    carousel: [ngi0Projects.Bana, ngi0Projects.Spritely]
+                    carousel: [ngi0Projects.Bana, ngi0Projects.FediverseTestFramework, ngi0Projects.ForgeFlux, ngi0Projects.Spritely]
                 },
                 {
                     heading: SIMILAR_CLOSED_SOURCE_PROJECTS,
@@ -108,6 +139,7 @@ export const DOSSIER: DossierType = {
     projects: SM_PROJECTS,
     detailedProjects: {
         Bana,
+        ForgeFlux,
         Spritely,
     },
     comparisons: {
