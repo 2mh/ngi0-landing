@@ -1029,4 +1029,14 @@ export const ngi0Projects = {
         start: "2023-06",
         end: "2024-01",
   },
+
+  qual: {
+        image: "https://nlnet.nl/project/P2P-channels/qaul.logo.svg",
+        header: "Qual",
+        subheader: "Distributed messaging over verifiable P2P channels",
+        tags: ["P2P", "Chat", "Messenger", "Messaging", "WiFi"],
+        link: "https://nlnet.nl/project/FediverseTestFramework/",
+        fund: funds.ngi0Commons,
+        start: "2025-06",
+  },
 }

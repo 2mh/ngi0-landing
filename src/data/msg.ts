@@ -4,7 +4,7 @@ import {ngi0Projects} from "./ngi0Projects";
 import {corporateProjects} from "./corporateProjects";
 
 const MSG_CARDS: ProjectCardType[] = [
-    ngi0Projects.Dino, ngi0Projects.BriarDesktop
+    ngi0Projects.Dino, ngi0Projects.BriarDesktop, ngi0Projects.qual
 ];
 
 const MSG_TAGS: string[] = [];
@@ -21,7 +21,7 @@ The area of messaging, which here includes instant forms of communication (resem
             associatedProjects: [
                 {
                     heading: SIMILAR_NGI0_PROJECTS,
-                    carousel: [ngi0Projects.Dino, ngi0Projects.BriarDesktop]
+                    carousel: [ngi0Projects.Dino, ngi0Projects.BriarDesktop, ngi0Projects.qual]
                 }
             ]
         },
@@ -54,6 +54,20 @@ Briar Desktop (as of now: beta versions available) is a messaging app designed f
     ]
 };
 
+const qual: ProjectPageType = {
+    pageTitle: "qual",
+    menuTitle: "qual",
+    projectDescription: [
+        {
+            header: "qual",
+            text: `
+qaul is a privacy-preserving, internet-independent, off-the-grid, delay-tolerant P2P mesh messenger that can be used even in emergency situations. In this project, we will implement configurable communication channels in qaul. This implementation will create an enhanced proximity-aware and connection-aware publish/subscribe protocol with verifiable channels. These channels can be configured for open discussions, trusted information channels, distributed spam protection, or distributed network protection. The project will also optimize the onboarding process for new users in local communities.
+`
+        },
+    ]
+};
+
+
 const comparison: ProjectPageType = {
     pageTitle: "Privacy-Enhancing Messaging Tools Comparison",
     menuTitle: "Privacy-Enhancing Messaging Tools Comparison",
@@ -77,7 +91,7 @@ const comparison: ProjectPageType = {
             associatedProjects: [
                 {
                     heading: ASSOCIATED_NGI0_PROJECTS,
-                    carousel: [ngi0Projects.Dino, ngi0Projects.BriarDesktop]
+                    carousel: [ngi0Projects.Dino, ngi0Projects.BriarDesktop, ngi0Projects.qual]
                 },
                 {
                     heading: SIMILAR_CLOSED_SOURCE_PROJECTS,
